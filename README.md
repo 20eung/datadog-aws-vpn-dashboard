@@ -1,17 +1,16 @@
-# Datadog Dashboard for Azure VPN Site
+# Datadog Dashboard for AWS VPN Site
 
-## Azure: VPN Sites
-1. Azure Virtual WANs 구성 후
-2. HUB 생성 및 VPN(Site to Site) 생성
-3. VPN Sites 생성하여 Link(Customer VPN) 등록
-4. Customer VPN과 연결(Connected) 상태
-![Azure-Hub-VPN-Site](img/azure-hub-vpn-sites.png)
+## AWS: Site2Site VPN Connections
+1. AWS Customer Gateway 등록 후
+2. Site to Site VPN Connection 생성
+3. Tunnel IP로 등록 Customer VPN과 연결(Connected) 상태
+![AWS-S2S-VPN-Connection](img/aws-s2s-vpn-connections.png)
 
-## Datadog: Azure Integration
-![Datadog-Azure-Integration](img/datadog-azure-integrations.png)
+## Datadog: AWS Integration
+![Datadog-AWS-Integration](img/datadog-aws-integrations.png)
 
-## Datadog: Azure VPN Dashboard Graph
-![Datadog-Azure-VPN-Dashboard](img/datadog-azure-vpn-dashboard.png)
+## Datadog: AWS VPN Dashboard Graph
+![Datadog-AWS-VPN-Dashboard](img/datadog-aws-vpn-dashboard.png)
 
-# Datadog: Azure VPN Dashboard Settings
-![Datadog-Azure-VPN-Dashboard-Settings](img/datadog-azure-vpn-dashboard-settings.png)
+# Datadog: AWS VPN Dashboard Settings
+![Datadog-AWS-VPN-Dashboard-Settings](img/datadog-aws-vpn-dashboard-settings.png)
